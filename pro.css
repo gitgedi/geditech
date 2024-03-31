@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+   
+  }
+ 
+  nav{
+    
+    height: 80px;
+    width: 100%;
+position: fixed;
+    display: flex;
+   z-index: 10000;
+    
+  }
+
+  nav .logo{
+
+padding-left:em;
+width:14em;
+padding-left:6em;
+align-items: center;
+display: flex;
+  }
+  nav .logo img{
+  width: 100%;
+      }
+  .menu .tag,
+  .menu .f{
+ display:none;
+   } .menu .tag,
+  .menu .f{
+ display:none;
+   }
+  nav ul{
+    display: flex;
+    padding-left:1em;
+   margin-left:15em;
+  background: rgb(176, 239, 81);
+   align-items: center;
+  margin-top:0.5em;
+   border-radius:40px;
+   display: flex;
+   width:30em;
+   justify-content: center;
+   height:4em;
+  
+      }
+      nav ul a{
+
+ margin-left:1em;
+
+ align-items: center;
+ text-decoration: none;
+ font-size:1.3em;
+ color: rgb(46, 171, 169);
+ font-weight:300;
+ 
+      }
+      nav ul a:hover{
+color:#fff;
+       
+             }
+             .home{
+              
+              width:100%;
+           min-height:0px;
+                     padding-top:7em;
+                   
+                           }
+                          
+                                                                  .home .pp{
+                                                                  
+                                                                 margin-left:5em;
+                                                           height:auto; 
+                                                           width:30%;
+                                                          position: relative;
+                                                          top:10em;
+
+                                                                   
+                                                                                 }    
+                                                                                 
+                                                                                 .home .im{   
+                                                                                  width:60%;
+                                                                                 
+                                                                                  margin-left:29em;
+                                                                                  justify-content: center;
+                                                                                  align-self: center;
+                                                                                 } 
+
+.im img{
+width:60%;
+margin-left:10em;
+} 
+
+.b{
+  width:100%;
+margin-top:15em;
+
+  } 
+  .b .te{
+
+  
+    justify-content:center;
+    align-items: center;
+position: relative;
+left:30%;
+width:40%;
+
+    
+    } 
+ .fle {
+
+flex-wrap: wrap;
+justify-content: center;
+display: flex;
+height:15em;
+      } 
+      .fle .card {
+        background: #47f82c;
+        flex-wrap: wrap;
+        width:200px;
+   
+        overflow: hidden;
+        border-radius:4px;
+        margin:20px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: block;
+              } 
+              .card img{
+                
+width:90%;
+}
+.card p {
+margin-top:1em;
+margin-left:2em;
+
+}
+.pro {
+
+ padding:40px;
+ width:100%;
+  
+  }
+  .pro h2{
+   margin-top:3em;
+   margin-left:14em;
+     
+     }
+     .pro p{
+      margin-top:1em;
+      margin-left:19em;
+        
+        }
+        .cup{
+
+width:90%;
+       display: flex;
+       overflow: hidden;
+       margin-top:4em; 
+        
+       margin-left:7em;
+       justify-content: center;
+       flex-wrap: wrap;   
+            }
+            .cup .cu{
+            
+               width:20%;
+                margin-left:2em;
+                margin-top:2em;
+
+
+                          }
+                          .cu .k{
+                            width:80%;
+                              
+                          } 
+                          
+                          .cu .l{
+                          width:10%;
+                         } 
+                         .cu h4{
+                          margin-left:4em;
+                          margin-top:12px;
+                           
+                              
+                              }  
+                              .cu .j{
+                              margin-left: 10em;
+                              background: rgb(130, 240, 130);
+                               }
+                               .d{
+                               width:100%;
+                              
+                               display: flex;
+                               flex-wrap: nowrap;
+                               justify-content: center;
+                               
+
+                                 }
+                                 .co{
+                                 width: 100%;
+                                
+                                 margin-top:5em;
+                                 height:5em;
+   margin-left:3em;
+   align-items: center;
+   justify-content: center;
+
+                                    } 
+                                    
+                                    .co h1{
+                                      margin-left:13em;
+       
+                                        }   
+                                        
+                                        .co h5{
+                                          margin-left:29em;
+margin-top: 1em;
+
+           
+                                            }                                       
+                                 .d .ins{
+                                  width:100%;
+                                  background: #0082e6;
+                                  width:25%;
+                                  background: #47f82c;
+                                  margin-left:20px;
+                                  margin-top:1em;
+                                  max-height:17em;
+                                    }
+
+
+                                    .ins img{
+                                     width:60%;
+                                     margin-left:2em;
+                                        }
+                                        .ins p{
+                                      margin-left:2em; 
+                                             }  
+                                             .ins h3{
+                                              margin-left:2em; 
+                                                     }   
+                                                     .e{
+                                                     background: #0082e6; 
+                                                    width:100%;
+                                                     min-height:6em;
+                                                     margin-top:4em;
+                                                             }                                                    
+                                                     
+ @media (max-width: 790px) {
+    nav{
+        background: #0082e6;
+        height: 70px;
+        width: 100%;
+     position: fixed;
+   
+        z-index:10000;
+      }
+
+      nav .logo{
+        width:1em;
+        display: none;
+      }
+      body{
+        width:100%
+      }     
+      nav ul{
+        display: block;
+        margin:0;
+        border:none;
+        border-radius:0;
+        width:15em;
+        height:40em;
+        margin-top:-70px;
+        
+
+      
+          }
+          .menu .tag,
+          .menu .f{
+         display:block;
+           }
+           .menu .tag img{
+width:2em;
+
+           }
+        
+              
+    
+  }
